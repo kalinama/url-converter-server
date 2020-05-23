@@ -6,8 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "server": "nodemon app.js",
-    "client": "npm run start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\""
   },
   "keywords": [
     "mern",
@@ -16,7 +15,7 @@
     "express",
     "mongo"
   ],
-  "author": "Vladislav & Igor",
+  "author": "Margo",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
