@@ -83,7 +83,7 @@ router.post(
     console.log(isMatch);
     const token = jwt.sign(
       { userId: user.id },
-      process.env.jwtSecret,
+      process.env.JWTSECRET,
       { expiresIn: '1h' }
     );
     console.log(token);

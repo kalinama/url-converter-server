@@ -6,7 +6,7 @@ const router = Router();
 
 router.post('/generate', auth, async (req, res) => {
   try {
-    const baseUrl = process.env.baseUrl;
+    const baseUrl = process.env.BASEURL;
     const { from } = req.body;
 
     const code = shortid.generate();
