@@ -1,0 +1,6 @@
+{
+  "port": 5000,
+  "mongoUri": "mongodb+srv://margo:kotikikotiki@url-shorter-so05v.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "devSe1d",
+  "baseUrl": "http://localhost:5000"
+}
