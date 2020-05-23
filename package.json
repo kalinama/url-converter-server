@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "server": "nodemon app.js",
-    "dev": "concurrently \"npm run server\""
+    "build": "ng build",
+    "heroku-postbuild": "ng build --prod"
   },
   "keywords": [
     "mern",
