@@ -4,8 +4,7 @@
   "description": "Mern stack",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "build": "webpack"
+    "start": "node app.js"
   },
   "keywords": [
     "mern",
