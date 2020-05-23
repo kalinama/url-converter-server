@@ -80,13 +80,13 @@ router.post(
     if (!isMatch) {
       return res.status(400).json({ message: 'Неверный пароль, попробуйте снова' })
     }
-
+    console.log(isMatch);
     const token = jwt.sign(
       { userId: user.id },
       process.env.jwtSecret,
       { expiresIn: '1h' }
     );
-
+    console.log(token);
     await res.json({token, userId: user.id});//await
 
   } catch (e) {
